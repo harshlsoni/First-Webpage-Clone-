@@ -1,0 +1,140 @@
+.left-nav{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-nav{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.gb_M{
+    border-radius: 60px;
+}
+.totu {
+    position: relative;
+    bottom: 4px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+input {
+    height: 20px;
+    border: 0;
+    
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+input::selection{
+    border: 0;
+
+}
+.searchbar:hover {
+    box-shadow: 3px 2px 10px rgb(79, 70, 70);
+
+}
+.searchbar{
+    margin: 5px;
+    padding: 0 5px;
+    border: .1px solid rgb(236, 220, 220);
+    
+    width: 500px;
+    height: 50px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.share{
+    
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 60px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.butt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.butt:hover{
+    border: 0.01px solid rgb(206, 180, 180);
+}
+
+.lang{
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.top{
+     border-bottom: 0.0001px solid rgb(200, 185, 185);
+}
+
+.bottom{
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 8px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(247, 245, 241);
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.right {
+    padding-right: 15px;
+}
+
+.left a{
+    padding-right: 5px;
+}
+
+.right a{
+    padding: 5px;
+}
